@@ -97,7 +97,6 @@ public class StateMachine : MonoBehaviour
 
     private void GetDestination()
     {
-        // Finds random point in front of enemy, finds their current location and adds forward.
         Vector3 testPosition = (transform.position + (transform.forward * 4.0f)) +
             new Vector3(x: UnityEngine.Random.Range(-4.5f, 4.5f), y: 0.0f,
             z: UnityEngine.Random.Range(-4.5f, 4.5f));
